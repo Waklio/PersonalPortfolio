@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1738bca927.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Personal Portfolio - Waklio Neto</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/MyLogo.png" class="logo" />
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Computer Engineer and a Front-End Developer</p>
+          <h1>Hi, I'm <span>Waklio Neto</span><br />From Brazil</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-----About-->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Me-again.png" alt="myphoto" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              repellendus autem hic amet quia eum rem sint praesentium quasi
+              similique. Saepe quos est hic eius illum nulla, voluptates
+              recusandae dicta.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br/>Designing Web Developer</li>
+                <li><span>React</span><br />Web app Development</li>
+                <li><span>IoT Maker</span><br />Maker/Building</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>20XX-Current</span><br />UI/UX Designer</li>
+                <li><span>20XX-Current</span><br />Programmer XXXXX</li>
+                <li><span>20XX-Current</span><br />Maker/Building</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>20XX-2024</span><br />Bachelor Degree in Computer Enginner at <br>University  Federal of Ceára- Brasil</li>
+                <li><span>20XX-Current</span><br />Web App Developer</li>
+                <li><span>20XX-Current</span><br />Maker/Building</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---Services-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-tilte">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-regular fa-lightbulb"></i>
+            <h2>UI/UX Designer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              amet consequuntur, corrupti eligendi neque dolore sequi commodi
+              dolorem vel consequatur, veritatis id similique iste voluptatibus
+              tempore voluptates eius minus earum!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front-End Developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              amet consequuntur, corrupti eligendi neque dolore sequi commodi
+              dolorem vel consequatur, veritatis id similique iste voluptatibus
+              tempore voluptates eius minus earum!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-robot"></i>
+            <h2>Maker IoT</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              amet consequuntur, corrupti eligendi neque dolore sequi commodi
+              dolorem vel consequatur, veritatis id similique iste voluptatibus
+              tempore voluptates eius minus earum!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!----------------portfolio----------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-tilte">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corporis nostrum dolor beatae non dolorum impedit, atque,
+                excepturi fugiat optio architecto ea! Veniam provident quos ut
+                aliquam odio voluptate odit voluptatem.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Music app</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corporis nostrum dolor beatae non dolorum impedit, atque,
+                excepturi fugiat optio architecto ea! Veniam provident quos ut
+                aliquam odio voluptate odit voluptatem.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online shopping</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corporis nostrum dolor beatae non dolorum impedit, atque,
+                excepturi fugiat optio architecto ea! Veniam provident quos ut
+                aliquam odio voluptate odit voluptatem.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-----contact-------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="" sub-title>Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              ><a href="mailto:xwaklio@gmail.com">xwaklio@gmail.com</a>
+            </p>
+
+            <div class="social-icons">
+              <a href="tel:+5588997068885"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a href="https://github.com/Waklio"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="www.linkedin.com/in/waklio-neto-77532624b"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/waklio neto CV-2.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="89172690-3d94-4f96-84cc-e80f87818730"
+              />
+
+              <input
+                type="text"
+                id="name"
+                name="Name"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+
+              <textarea
+                id="message"
+                name="Message"
+                rows="6"
+                placeholder="How can I help you ?"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+          <div class="copyright">
+            <p>
+              All rights are reserved by <strong>Waklio Neto</strong>
+              <i class="fa-solid fa-heart"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
